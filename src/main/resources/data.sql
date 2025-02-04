@@ -10,4 +10,7 @@ INSERT INTO Country(id, code, name) VALUES
 -- ALTER TABLE Country ALTER COLUMN id RESTART WITH 4;
 
 --- Insertion des pays
--- INSERT INTO City(name, population, country_id) VALUES
+INSERT INTO City(name, population, country_id) VALUES
+    ('Paris', 12, 1),
+    ('London', 18, 2),
+    ('New York', 27, 3)
